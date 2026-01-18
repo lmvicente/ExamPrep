@@ -72,6 +72,7 @@ export default function QuizApp({ questions }: QuizAppProps) {
 
     const calculateProgress = (): number => {
         if (questions.length === 0) return 0;
+        if (currentIndex === 0) return 0;
         return ((currentIndex + 1) / questions.length) * 100;
     };
 
