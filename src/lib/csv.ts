@@ -3,7 +3,7 @@ import path from 'path';
 import { parse } from 'csv-parse/sync';
 
 export type QuestionRow = {
-    QuestionID: number;
+    QuestionID: string;
     Category: string;
     Topic: string;
     Question: string;

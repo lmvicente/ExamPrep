@@ -49,7 +49,7 @@ export default function Filters({ questions, onStartQuiz }: FiltersProps) {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+    <div className="p-16 bg-white dark:bg-gray-800 rounded-lg shadow-md w-screen h-screen">
       <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Configure Quiz</h2>
 
       {/* Categories */}
